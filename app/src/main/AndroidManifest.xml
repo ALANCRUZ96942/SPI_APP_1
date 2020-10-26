@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Denuncia1"/>
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        <activity android:name=".FullScreenActivity"
+            android:parentActivityName=".Galeria"></activity>
+        <activity android:name=".Denuncia1" />
         <activity android:name=".Denuncias" />
         <activity android:name=".Juegos" />
         <activity android:name=".Informacion" />
