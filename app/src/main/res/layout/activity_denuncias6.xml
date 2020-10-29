@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Denuncias6"
+    >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".Denuncias6"
+            >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="147dp"
+                android:layout_height="115dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/logo2" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="338dp"
+                android:layout_height="89dp"
+                android:layout_marginTop="28dp"
+                android:fontFamily="@font/gontserrata"
+                android:text="         Por favor seleccione \n las conductas que observó"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toTopOf="@+id/compra"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <CheckBox
+                android:buttonTint="@color/acento"
+                android:id="@+id/compra"
+                android:layout_width="405dp"
+                android:layout_height="52dp"
+                android:layout_marginBottom="36dp"
+                android:ems="10"
+                android:fontFamily="@font/gontserrata"
+                android:inputType="number"
+                android:text="Compra de votos"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/tomar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <CheckBox
+                android:buttonTint="@color/acento"
+                android:id="@+id/tomar"
+                android:layout_width="405dp"
+                android:layout_height="52dp"
+                android:layout_marginBottom="36dp"
+                android:ems="10"
+                android:fontFamily="@font/gontserrata"
+                android:inputType="number"
+                android:text="Tomar INE sin consentimiento"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/robo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.216"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <CheckBox
+                android:id="@+id/robo"
+                android:layout_width="405dp"
+                android:layout_height="52dp"
+                android:layout_marginBottom="36dp"
+                android:buttonTint="@color/acento"
+                android:ems="10"
+                android:fontFamily="@font/gontserrata"
+                android:inputType="number"
+                android:text="Robo de casillas electorales"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/condicion"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <CheckBox
+                android:buttonTint="@color/acento"
+                android:id="@+id/condicion"
+                android:layout_width="405dp"
+                android:layout_height="52dp"
+                android:layout_marginBottom="36dp"
+                android:ems="10"
+                android:textSize="18sp"
+                android:fontFamily="@font/gontserrata"
+                android:inputType="number"
+                android:text="Condicionar un servicio público"
+                app:layout_constraintBottom_toTopOf="@+id/alteracion"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+            <CheckBox
+                android:buttonTint="@color/acento"
+                android:id="@+id/alteracion"
+                android:layout_width="405dp"
+                android:layout_height="52dp"
+                android:layout_marginBottom="36dp"
+                android:ems="10"
+                android:fontFamily="@font/gontserrata"
+                android:inputType="number"
+                android:text="Alteración de resultados electorales"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/amenaza"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.161"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <CheckBox
+                android:buttonTint="@color/acento"
+                android:id="@+id/amenaza"
+                android:layout_width="405dp"
+                android:layout_height="52dp"
+                android:layout_marginBottom="40dp"
+                android:ems="10"
+                android:fontFamily="@font/gontserrata"
+                android:inputType="number"
+                android:text="Amenazas por parte de servidor público"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/otra"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.166"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/siguiente0"
+                android:layout_width="164dp"
+                android:layout_height="58dp"
+                android:layout_marginBottom="64dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="@color/oscuro"
+                android:fontFamily="@font/gontserrata"
+                android:text="Siguiente"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.465"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="94dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/gontserrata"
+                android:text="Otra"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/siguiente0"
+                app:layout_constraintEnd_toStartOf="@+id/otra"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/amenaza"
+                app:layout_constraintVertical_bias="0.383"
+                tools:textColor="@color/oscuro" />
+
+            <EditText
+                android:id="@+id/otra"
+                android:layout_width="261dp"
+                android:layout_height="61dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="48dp"
+                android:ems="10"
+                android:fontFamily="@font/gontserrata"
+                android:inputType="textPersonName"
+                android:text="."
+                app:layout_constraintBottom_toTopOf="@+id/siguiente0"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
