@@ -4,21 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Galeria">
+    tools:context=".FullScreenActivity"
+    android:background="#000">
 
-    <GridView
-        android:id="@+id/grid_view"
-        android:layout_height="match_parent"
+    <ImageView
+        android:id="@+id/image_view"
         android:layout_width="match_parent"
-        android:numColumns="3"
-        android:columnWidth="90dp"
-        android:horizontalSpacing="10dp"
-        android:verticalSpacing="10dp"
-        android:gravity="center"
-        android:stretchMode="columnWidth"
-        ></GridView>
-
-
-
+        android:layout_height="match_parent"
+        ></ImageView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
