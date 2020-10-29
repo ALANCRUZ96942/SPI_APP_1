@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
+
         <activity android:name=".Denuncias7" />
         <activity
             android:name=".Denuncias6"
@@ -25,14 +25,9 @@
         <activity
             android:name=".Denuncias"
             android:label="Elección sin corrupción" />
-=======
-        android:hardwareAccelerated="false"
-        android:largeHeap="true"
-        <activity android:name=".FullScreenActivity"
-            android:parentActivityName=".Galeria"></activity>
-        <activity android:name=".Denuncia1" />
-        <activity android:name=".Denuncias" />
->>>>>>> 96da7956c16387bb42df4e0d2760342bbb7eb15e
+
+
+
         <activity android:name=".Juegos" />
         <activity android:name=".Informacion" />
         <activity android:name=".Galeria" />
