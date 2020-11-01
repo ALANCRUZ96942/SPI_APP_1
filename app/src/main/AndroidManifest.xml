@@ -26,11 +26,13 @@
             android:name=".Denuncias"
             android:label="Elección sin corrupción" />
 
+        <activity android:name=".FullScreenActivity"
+            android:parentActivityName=".Galeria"/>
 
-
+        <activity android:name=".Galeria" />
         <activity android:name=".Juegos" />
         <activity android:name=".Informacion" />
-        <activity android:name=".Galeria" />
+
         <activity
             android:name=".Denuncias3"
             android:label="Elección sin corrupción" />
