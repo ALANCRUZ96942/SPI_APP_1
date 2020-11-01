@@ -6,21 +6,45 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
+        <activity android:name=".Denuncias7" />
+        <activity
+            android:name=".Denuncias6"
+            android:label="Elección sin corrupción" />
+        <activity
+            android:name=".Denuncias5"
+            android:label="Elección sin corrupción" />
+        <activity
+            android:name=".Denuncias4"
+            android:label="Elección sin corrupción" />
+        <activity
+            android:name=".Denuncia1"
+            android:label="Elección sin corrupción" />
+        <activity
+            android:name=".Denuncias"
+            android:label="Elección sin corrupción" />
+=======
         android:hardwareAccelerated="false"
         android:largeHeap="true"
         <activity android:name=".FullScreenActivity"
             android:parentActivityName=".Galeria"></activity>
         <activity android:name=".Denuncia1" />
         <activity android:name=".Denuncias" />
+>>>>>>> 96da7956c16387bb42df4e0d2760342bbb7eb15e
         <activity android:name=".Juegos" />
         <activity android:name=".Informacion" />
         <activity android:name=".Galeria" />
+        <activity
+            android:name=".Denuncias3"
+            android:label="Elección sin corrupción" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".PaginaInicio">
+        <activity android:name=".PaginaInicio"    android:theme="@style/Theme.AppCompat.NoActionBar">
+
             <intent-filter>
+
+
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
